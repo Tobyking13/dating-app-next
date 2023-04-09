@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div>
             <p className={`center-align ${styles.footer}`}>
-            {`© ${year} Humpsta`}
+            {`© ${year} www.freedate.com`}
             </p>
         </div>
     );
