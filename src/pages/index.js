@@ -2,13 +2,12 @@ import Head from 'next/head'
 import NavBar from '@/components/nav'
 import Footer from '@/components/footer'
 import WelcomeCards from '@/components/cards'
-import { useUser } from '@auth0/nextjs-auth0/client'
+import { useState } from 'react'
 
 export default function Home() {
-  const { user, error, isLoading} = useUser();
+  const [showModal, setShowModal] = useState(false);
 
-  // console.log(user);
-
+  const authToken = false
 
   return (
     <>

@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../components/nav.js -> materialize-css/dist/js/materialize.min.js":{"id":"../components/nav.js -> materialize-css/dist/js/materialize.min.js","files":["static/chunks/node_modules_materialize-css_dist_js_materialize_min_js.js"]}}
